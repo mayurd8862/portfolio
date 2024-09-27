@@ -22,29 +22,34 @@ const scrollRevealOption = {
 
 ScrollReveal().reveal(".header__container img", {
   ...scrollRevealOption,
+  delay: 300,
 });
 ScrollReveal().reveal(".header__container h1", {
   ...scrollRevealOption,
   delay: 500,
 });
+
 ScrollReveal().reveal(".header__container p", {
   ...scrollRevealOption,
   delay: 1000,
 });
 ScrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 1200,
 });
 
-ScrollReveal().reveal(".project__card", {
+
+
+ScrollReveal().reveal(".skill__container li ", {
   ...scrollRevealOption,
-  interval: 500,
+  interval: 200,
 });
 
 ScrollReveal().reveal(".experience__list li", {
   ...scrollRevealOption,
   interval: 500,
 });
+
 
 ScrollReveal().reveal(".footer__container h2", {
   ...scrollRevealOption,
