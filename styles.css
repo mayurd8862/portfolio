@@ -283,7 +283,7 @@ body {
 .wrapper i {
   height: 50px;
   width: 50px;
-  background: rgb(191, 118, 233);
+  background: rgb(233, 229, 236);
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
@@ -566,4 +566,15 @@ footer {
   .project__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+
+
+
+
+.skill__flex img:hover {
+  transform: scale(1.1); /* Scale up slightly */
+  filter: brightness(1.25); /* Increase brightness */
+  /* box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5); */
+ 
 }
