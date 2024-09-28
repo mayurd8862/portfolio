@@ -22,8 +22,8 @@ const scrollRevealOption = {
 
 ScrollReveal().reveal(".header__container img", {
   ...scrollRevealOption,
-  delay: 500,
 });
+
 ScrollReveal().reveal(".header__container h1", {
   ...scrollRevealOption,
   delay: 500,
