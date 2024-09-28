@@ -22,7 +22,7 @@ const scrollRevealOption = {
 
 ScrollReveal().reveal(".header__container img", {
   ...scrollRevealOption,
-  delay: 300,
+  delay: 500,
 });
 ScrollReveal().reveal(".header__container h1", {
   ...scrollRevealOption,
@@ -64,7 +64,7 @@ ScrollReveal().reveal(".footer__container .mail__to", {
 });
 ScrollReveal().reveal(".footer__socials", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 1200,
 });
 
 
