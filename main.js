@@ -21,6 +21,11 @@ const scrollRevealOption = {
   debug: true,
 };
 
+// const sr = ScrollReveal();
+// sr.reveal(".header__container img", {
+//   ...scrollRevealOption,
+//   // delay: 700,
+// });
 
 ScrollReveal().reveal(".header__container img", {
   ...scrollRevealOption,
