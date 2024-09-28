@@ -18,11 +18,15 @@ const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
   duration: 1000,
+  debug: true,
 };
+
 
 ScrollReveal().reveal(".header__container img", {
   ...scrollRevealOption,
+  // delay: 700,
 });
+
 
 ScrollReveal().reveal(".header__container h1", {
   ...scrollRevealOption,
@@ -37,6 +41,8 @@ ScrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
   delay: 1200,
 });
+
+
 
 
 

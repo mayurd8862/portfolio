@@ -109,12 +109,14 @@ body {
   color: var(--white);
 }
 
+
 .header__container img {
   max-width: 200px;
   margin-inline: auto;
   margin-bottom: 2rem;
-  transition: 0.3s;
+  visibility: hidden;
 }
+
 
 .header__container h1 {
   margin-bottom: 2rem;
@@ -355,7 +357,8 @@ img {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   margin-top: 10px;
-  background: rgba(191, 118, 233, 0.8);
+  background: rgba(222, 112, 239, 0.916);
+  /* background:linear-gradient(to right bottom, hwb(302 52% 10%), #e4683f); */
   padding: 5px 10px;
   border-radius: 5px;
 }
